@@ -18,8 +18,10 @@
 nav.navbar.navbar-dark {
     background-color: #be91ae !important;
 }
-
-
+.btn.btn-primary.btn-lg {
+    background-color: #be91ae;
+    border-color: #be91ae;
+}
 
 @media (max-width: 767.98px) {
     .hero-title {
