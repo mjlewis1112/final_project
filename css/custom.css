@@ -13,7 +13,7 @@
 }
 .hero-image {
     border-radius: 0.5rem;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.825);
+    box-shadow: 0 0.5rem 1rem #be91ae;
 }
 nav.navbar.navbar-dark {
     background-color: #be91ae !important;
@@ -22,7 +22,38 @@ nav.navbar.navbar-dark {
     background-color: #be91ae;
     border-color: #be91ae;
 }
+body {
+    background-color: #ffffff;
+    color: #333;
+}
 
+/*--contact form--*/
+.contact-form {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-top: 50px;
+}
+.contact-form h2 {
+    color: #be91ae;
+    margin-bottom: 30px;
+}
+.form-control:focus {
+    border-color: #be91ae;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+.btn-primary {
+    background-color: #be91ae;
+    border-color: #be91ae;
+    transition: all 0.3s ease;
+}
+.btn-primary:hover {
+    background-color: #be91ae;
+    border-color: #be91ae;
+}
+
+/*--media query--*/
 @media (max-width: 767.98px) {
     .hero-title {
         font-size: 2.5rem;
