@@ -1,15 +1,18 @@
+/*--hero section--*/
 .hero-section {
-    background-color: #ffffff;
+    background-color: #fff3fb;
     padding: 5rem 0;
 }
 .hero-title {
     font-size: 3rem;
-    font-weight: 700;
+    font-weight: 400;
     margin-bottom: 1.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .hero-description {
     font-size: 1.2rem;
     margin-bottom: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .hero-image {
     border-radius: 0.5rem;
@@ -24,7 +27,18 @@ nav.navbar.navbar-dark {
 }
 body {
     background-color: #ffffff;
-    color: #333;
+    color: #ab7d9b;
+}
+
+/*--cards--*/
+.card-title {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.card-text {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn-primary {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /*--contact form--*/

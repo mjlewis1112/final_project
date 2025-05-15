@@ -5,34 +5,38 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Madison's Personal Portfolio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/custom.css">
 </head>
 <body>
   <main>
     <nav class="navbar navbar-dark navbar-expand-lg bg-primary">
-      <div class="container-fluid">
+    <div class="container-fluid">
       <a class="navbar-brand d-flex align-items-center me-4" href="#">
-      <img src="img/logo.png" alt="Logo" width="60" height="60" class="d-inline-block align-middle">
-    </a>
-
+        <img src="img/logo.png" alt="Logo" width="70" height="70" class="d-inline-block align-middle">
+      </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
       </button>
-
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav d-flex flex-row gap-3">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">About Me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact Me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://www.linkedin.com/in/madison-lewis-1144ml203/">Linkedin</a>
-            </li>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto d-flex flex-column flex-lg-row gap-3 align-items-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.linkedin.com/in/madison-lewis-1144ml203/">
+              <i class="bi bi-linkedin fs-1"></i>
+            </a>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
+</main>
     <div id="carouselExample" class="carousel slide">
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -55,22 +59,22 @@
       <div class="container">
         <div class="row align-items-center">
             <div class="col-md-6">
-              <img src="img/first.JPG" alt="Hero Image" class="img-fluid hero-image">
+              <img src="img/first.JPG" alt="Hero Image" class="img-fluid hero-image" style="max-width: 90%;">
             </div>
             <div class="col-md-6">
-              <h1 class="hero-title">Hello, my name is Madison Lewis!</h1>
-              <p class="hero-description">I am in my third year at Iowa State University. I am double-majoring in Communication Studies and Techincal Communication with a minor in Psychology. I am planning to graduate in Spring 2026.</p>
+              <h1 class="hero-title">Hello, I'm Madison Lewis!</h1>
+              <p class="hero-description">I am in my third year at Iowa State University. I am double-majoring in Communication Studies and Techincal Communication with a minor in Psychology. I am planning to graduate in Spring 2026! My resume is attached below.</p>
               <a href="resume.pdf" class="btn btn-primary btn-lg">Resume</a>
-          </div>
+            </div>
     <section class="hero-section">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-6">
               <h1 class="hero-title">About Me</h1>
-              <p class="hero-description">Throughout my time at Iowa State, I have been involved in numerious organizations. Currently, I am a Communication Studies Ambassador and I am involved in the Communication Studies club. I am a member of Lambda Pi Eta, a communications honor society, and I hold a part-time job at the Office of the Registrar. Some valuable courses I have taken at Iowa State include Small Group Communication, Relational Communication and Business Communication.</p>
+              <p class="hero-description">Throughout my time at Iowa State University, I have been involved in numerous organizations. Currently, I am a Communication Studies Ambassador, and I am involved in the Communication Studies club. I am a member of Lambda Pi Eta, a communications honor society, and I hold a part-time job at the Office of the Registrar. Some valuable courses I have taken include Business Communication, Nonverbal Communication, and Technical Communication.</p>
             </div>
             <div class="col-md-6">
-            <img src="img/second.JPG" alt="Hero Image" class="img-fluid hero-image">
+            <img src="img/second.JPG" alt="Hero Image" class="img-fluid hero-image" style="max-width: 90%;">
           </div>
         </div>
       </div>
@@ -80,9 +84,9 @@
         <div class="card h-100">
           <img src="img/card.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Business Communication</h5>
+            <h5 class="card-title">ENGL 3020: Business Communication</h5>
             <p class="card-text">Click on the button below to see my most recent work in Business Communication!</p>
-            <a href="#" class="btn btn-primary">Project</a>
+            <a href="buscomm.pdf" class="btn btn-primary">Project</a>
           </div>
         </div>
       </div>
@@ -90,9 +94,9 @@
         <div class="card h-100">
           <img src="img/card.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Technical Communication</h5>
+            <h5 class="card-title">ENGL 3140: Technical Communication</h5>
             <p class="card-text">Click on the button below to see my most recent work in Technical Communication!</p>
-            <a href="#" class="btn btn-primary">Project</a>
+            <a href="tcomm.pdf" class="btn btn-primary">Project</a>
           </div>
         </div>
       </div>
@@ -100,9 +104,9 @@
         <div class="card h-100">
           <img src="img/card.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Small Group Communication</h5>
-            <p class="card-text">Click on the button below to see my most recent work in Small Group Communication!</p>
-            <a href="#" class="btn btn-primary">Project</a>
+            <h5 class="card-title">COMST 3250: Nonverbal Communication</h5>
+            <p class="card-text">Click on the button below to see my most recent work in Nonverbal Communication!</p>
+            <a href="nvcomm.pdf" class="btn btn-primary">Project</a>
           </div>
 
     
